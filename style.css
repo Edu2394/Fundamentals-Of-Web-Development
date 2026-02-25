@@ -1,0 +1,36 @@
+div{
+background-color: rgb(236, 244, 19);
+padding-bottom:20px;
+margin-bottom:10px;
+}
+.subtitles{
+  background-color: grey;
+  font-size: 30px;
+}
+ body{
+            background-color: rgb(0, 0, 0);
+        }
+p{
+            color:rgb(255, 255, 255);
+            font-size:20px;
+            text-align: left;
+        }
+div p{
+        color:black;
+}
+h1{
+            color:rgb(250, 255, 111);
+            text-align: left;
+}
+.extra{
+    color:rgb(250, 255, 111);
+}
+a:link
+{
+ color: rgb(236, 244, 19)
+}
+a:visited
+{
+color:white;
+
+}
