@@ -33,6 +33,24 @@ div p{
     justify-content:center;
     align-content:center
 }
+.general_flexbox{
+    background-color:white;
+    display:flex;
+    padding:30px;
+    justify-content:space-between;
+    width:600px;
+}
+.columns{
+    background-color:burlywood;
+    flex-direction:column;
+    padding:10px;
+    display:flex;
+}
+.rows{
+    background-color:rgb(215, 222, 135);
+    flex-direction:row;
+    display:flex;
+}
 .inheritance2 p{
     background-color:chocolate
 }
