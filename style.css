@@ -46,6 +46,18 @@ div p{
     padding:10px;
     display:flex;
 }
+.align_flexbox{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:10px;
+    background-color:white
+}
+.item{
+    background-color:chartreuse;
+    width:200px;
+    margin:10px;
+}
 .rows{
     background-color:rgb(215, 222, 135);
     flex-direction:row;
