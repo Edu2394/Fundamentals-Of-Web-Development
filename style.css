@@ -46,6 +46,25 @@ div p{
     padding:10px;
     display:flex;
 }
+.navbar{
+    position:fixed;
+    top:0;
+    right:10px;
+    display:flex;
+    justify-content:space-between;
+    width:50%;
+    border-radius:2%;
+    height:60px;
+    color:black;
+    align-items:center;
+    font-size:20px;
+    background-color:white;
+    z-index:1000;/*always in front of all*/
+    
+}
+.navbar a:visited{
+    color:initial
+}
 .align_flexbox{
     display:flex;
     align-items:center;
