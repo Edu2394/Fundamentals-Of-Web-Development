@@ -14,13 +14,33 @@ p{
             color:rgb(255, 255, 255);
             font-size:20px;
             text-align: left;
+             font-family: 'Open+Sans', serif;/*serif is a generic font available that shows when Tangerine isn't available*/
         }
 div p{
         color:black;
 }
+
+.inheritance1{
+    margin-left:20px;
+    width:200px;
+    background-color:rgb(125, 26, 26);
+    justify-content:center
+}
+.inheritance2{
+     margin-left:20px;
+    width:200px;
+    background-color:rgb(168, 145, 29);
+    justify-content:center;
+    align-content:center
+}
+.inheritance2 p{
+    background-color:chocolate
+}
 h1{
+        font-family: 'Tangerine', serif;/*name of the font*/
             color:rgb(250, 255, 111);
             text-align: left;
+
 }
 .extra{
     color:rgb(250, 255, 111);
