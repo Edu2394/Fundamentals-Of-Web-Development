@@ -1,138 +1,285 @@
-div{
-background-color: rgb(236, 244, 19);
-padding-bottom:20px;
-margin-bottom:10px;
-}
-.subtitles{
-  background-color: grey;
-  font-size: 30px;
-}
- body{
-            background-color: rgb(0, 0, 0);
-        }
-p{
-            color:rgb(255, 255, 255);
-            font-size:20px;
-            text-align: left;
-             font-family: 'Open+Sans', serif;/*serif is a generic font available that shows when Tangerine isn't available*/
-        }
-div p{
+
+@media(max-width:600px)
+{
+
+    div{
+    background-color: rgb(236, 244, 19);
+    padding-bottom:20px;
+    margin-bottom:10px;
+    }
+    .subtitles{
+    background-color: grey;
+    font-size: 30px;
+    }
+    body{
+                background-color: rgb(0, 0, 0);
+            }
+    p{
+                color:rgb(255, 255, 255);
+                font-size:20px;
+                text-align: left;
+                font-family: 'Open+Sans', serif;/*serif is a generic font available that shows when Tangerine isn't available*/
+            }
+    div p{
+            color:black;
+    }
+
+    .inheritance1{
+        margin-left:10px;
+        width:200px;
+        background-color:rgb(125, 26, 26);
+        justify-content:center
+    }
+    .inheritance2{
+        margin-left:10px;
+        width:200px;
+        background-color:rgb(168, 145, 29);
+        justify-content:center;
+        align-content:center
+    }
+    .general_flexbox{
+        background-color:white;
+        display:flex;
+        padding:10px;
+        justify-content:space-between;
+        width:350px;
+    }
+    .columns{
+        background-color:burlywood;
+        flex-direction:column;
+        padding:10px;
+        display:flex;
+    }
+    .navbar{
+        position:relative;
+        display:flex;
+        justify-content:space-between;
+        width:100%;
+        border-radius:2%;
+        height:60px;
         color:black;
-}
+        align-items:center;
+        font-size:15px;
+        background-color:white;
+        z-index:1000;/*always in front of all*/
+        
+    }
+    .navbar a:visited{
+        color:initial
+    }
+    .align_flexbox{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        padding:10px;
+        background-color:white
+    }
+    .item{
+        background-color:chartreuse;
+        width:100px;
+        margin:10px;
+    }
+    .rows{
+        background-color:rgb(215, 222, 135);
+        flex-direction:row;
+        display:flex;
+    }
+    .inheritance2 p{
+        background-color:chocolate
+    }
+    h1{
+            font-family: 'Tangerine', serif;/*name of the font*/
+                color:rgb(250, 255, 111);
+                text-align: left;
 
-.inheritance1{
-    margin-left:20px;
-    width:200px;
-    background-color:rgb(125, 26, 26);
-    justify-content:center
-}
-.inheritance2{
-     margin-left:20px;
-    width:200px;
-    background-color:rgb(168, 145, 29);
-    justify-content:center;
-    align-content:center
-}
-.general_flexbox{
-    background-color:white;
-    display:flex;
-    padding:30px;
-    justify-content:space-between;
-    width:600px;
-}
-.columns{
-    background-color:burlywood;
-    flex-direction:column;
-    padding:10px;
-    display:flex;
-}
-.navbar{
-    position:fixed;
-    top:0;
-    right:10px;
-    display:flex;
-    justify-content:space-between;
-    width:50%;
-    border-radius:2%;
-    height:60px;
-    color:black;
-    align-items:center;
+    }
+    .extra{
+        color:rgb(250, 255, 111);
+    }
+    a:link
+    {
+    color: rgb(236, 244, 19)
+    }
+    a:visited
+    {
+    color:white;
+
+    }
+    .target{
+        display:flex;
+        background-color:rgb(255, 255, 255);
+        width: 350px;
+        height: 300px;
+        border-radius: 15px;/*creates rounded corners*/
+        box-sizing: border-box;/*never includes the margin size*/
+    }
+
+
+    .target-text{
+    text-align: justify;
+     font-size:17px;
+    }
+    .target-subtitles{
+        text-align:  justify;
     font-size:20px;
-    background-color:white;
-    z-index:1000;/*always in front of all*/
-    
-}
-.navbar a:visited{
-    color:initial
-}
-.align_flexbox{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    padding:10px;
-    background-color:white
-}
-.item{
-    background-color:chartreuse;
-    width:200px;
-    margin:10px;
-}
-.rows{
-    background-color:rgb(215, 222, 135);
-    flex-direction:row;
-    display:flex;
-}
-.inheritance2 p{
-    background-color:chocolate
-}
-h1{
-        font-family: 'Tangerine', serif;/*name of the font*/
-            color:rgb(250, 255, 111);
-            text-align: left;
+    font-style:italic; 
+    }
 
-}
-.extra{
-    color:rgb(250, 255, 111);
-}
-a:link
-{
- color: rgb(236, 244, 19)
-}
-a:visited
-{
-color:white;
-
-}
-.target{
-    background-color:rgb(255, 255, 255);
-    width: 700px;
-    height: 320px;
-    border-radius: 15px;/*creates rounded corners*/
-    box-sizing: border-box;/*never includes the margin size*/
-}
-
-
-.target-text{
-text-align: justify;
- 
-}
-.target-subtitles{
-    text-align:  justify;
-   font-size:30px;
-   font-style:italic; 
-}
-
-.tar{
-display: inline-block; /* types like block,inline,etc*/
-box-sizing: border-box;
-width: 300px;
-height: 350px;
-margin:10px;
-
-}
-.info{
-
-    display:inline-block;
-    margin-right:20px;
+    .tar{
+        align-content:center;
+    display: inline-block; /* types like block,inline,etc*/
     box-sizing: border-box;
+    width: 150px;
+    height: 300px;
+    margin:10px;
+
+    }
+    .info{
+
+        display:inline-block;
+        margin-right:20px;
+        box-sizing: border-box;
+    }
+}
+@media(min-width:600px)
+{
+
+    div{
+    background-color: rgb(236, 244, 19);
+    padding-bottom:20px;
+    margin-bottom:10px;
+    }
+    .subtitles{
+    background-color: grey;
+    font-size: 30px;
+    }
+    body{
+                background-color: rgb(0, 0, 0);
+            }
+    p{
+                color:rgb(255, 255, 255);
+                font-size:20px;
+                text-align: left;
+                font-family: 'Open+Sans', serif;/*serif is a generic font available that shows when Tangerine isn't available*/
+            }
+    div p{
+            color:black;
+    }
+
+    .inheritance1{
+        margin-left:20px;
+        width:300px;
+        background-color:rgb(125, 26, 26);
+        justify-content:center
+    }
+    .inheritance2{
+        margin-left:20px;
+        width:200px;
+        background-color:rgb(168, 145, 29);
+        justify-content:center;
+        align-content:center
+    }
+    .general_flexbox{
+        background-color:white;
+        display:flex;
+        padding:30px;
+        justify-content:space-between;
+        width:600px;
+    }
+    .columns{
+        background-color:burlywood;
+        flex-direction:column;
+        padding:10px;
+        display:flex;
+    }
+    .navbar{
+        position:fixed;
+        top:0;
+        right:10px;
+        display:flex;
+        justify-content:space-between;
+        width:50%;
+        border-radius:2%;
+        height:60px;
+        color:black;
+        align-items:center;
+        font-size:20px;
+        background-color:white;
+        z-index:1000;/*always in front of all*/
+        
+    }
+    .navbar a:visited{
+        color:initial
+    }
+    .align_flexbox{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        padding:10px;
+        background-color:white
+    }
+    .item{
+        background-color:chartreuse;
+        width:200px;
+        margin:10px;
+    }
+    .rows{
+        background-color:rgb(215, 222, 135);
+        flex-direction:row;
+        display:flex;
+    }
+    .inheritance2 p{
+        background-color:chocolate
+    }
+    h1{
+            font-family: 'Tangerine', serif;/*name of the font*/
+                color:rgb(250, 255, 111);
+                text-align: left;
+
+    }
+    .extra{
+        color:rgb(250, 255, 111);
+    }
+    a:link
+    {
+    color: rgb(236, 244, 19)
+    }
+    a:visited
+    {
+    color:white;
+
+    }
+    .target{
+        background-color:rgb(255, 255, 255);
+        width: 700px;
+        height: 320px;
+        border-radius: 15px;/*creates rounded corners*/
+        box-sizing: border-box;/*never includes the margin size*/
+    }
+
+
+    .target-text{
+    text-align: justify;
+    
+    }
+    .target-subtitles{
+        text-align:  justify;
+    font-size:30px;
+    font-style:italic; 
+    }
+
+    .tar{
+    display: inline-block; /* types like block,inline,etc*/
+    box-sizing: border-box;
+    width: 300px;
+    height: 350px;
+    margin:10px;
+
+    }
+    .info{
+
+        display:inline-block;
+        margin-right:20px;
+        box-sizing: border-box;
+    }
 }
